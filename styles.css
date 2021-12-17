@@ -17,9 +17,9 @@ body {
     font-size: 24px; 
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 64px;
     background-color: #1f2937;
-    padding: 16px;
+    padding: 8px;
 }
 
 .flex-container .header .links {
@@ -50,7 +50,7 @@ body {
     display: flex;
     gap: 64px;
     background-color: #1f2937;
-    padding: 16px;
+    padding: 32px;
 }
 
 .flex-container .hero .hero-text {
@@ -70,6 +70,7 @@ body {
 
 .flex-container .hero .hero-text .links {
     display: flex;
+
 }
 
 .flex-container .hero .hero-text .links a {
@@ -78,12 +79,15 @@ body {
     text-decoration: none;
     background-color: #3882f6;
     border-radius: 5px;
-    width: 128px;
+    padding: 25px 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     text-align: center;
+    font-weight: bolder;
 }
 
 .flex-container .hero img {
-    height: 256px;
+    height: 320px;
     width: 1024px;
 }
 
@@ -95,6 +99,7 @@ body {
     background-color: white;
     padding: 16px 16px;
 }
+
 .flex-container .information h1 {
     color: #1f2937;
     font-size: 36px;
@@ -104,7 +109,7 @@ body {
 .flex-container .information .info-content {
     display: flex; 
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .flex-container .information .info-content .img-info {
@@ -112,11 +117,79 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 124px;
 }
 
 .flex-container .information .info-content .img-info img {
-    border-color: #3882f6;
-    border-width: 5px;
-    height: 100px;
-    width: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.flex-container .information .info-content .img-info p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.flex-container .quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container .quote-section p {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 512px;
+}
+
+.flex-container .quote-section .quote-att p{
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    font-size: 16px;
+}
+
+.flex-container .call-to-action {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+
+.flex-container .call-to-action .call-banner {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 64px 64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    gap: 64px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container .call-to-action .call-banner .call-text h1 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.flex-container .call-to-action .call-banner .call-text p {
+    font-size: 10px;
+}
+
+.flex-container .call-to-action .call-banner .call-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 16px 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
